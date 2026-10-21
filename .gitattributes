@@ -1,0 +1,17 @@
+# Normalkan akhir baris: selalu LF di dalam repositori, apa pun sistem operasinya.
+# Penting karena proyek ini ditulis di Windows tetapi di-build di Linux (Vercel).
+* text=auto eol=lf
+
+# Berkas biner — jangan disentuh normalisasi akhir baris.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.woff  binary
+*.woff2 binary
+*.pdf  binary
+
+# Lockfile: tandai sebagai hasil generate supaya diffnya diciutkan di GitHub.
+package-lock.json linguist-generated=true

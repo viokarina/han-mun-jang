@@ -1,0 +1,182 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Kertas & tinta */
+  --color-paper: #fbf8f3;
+  --color-paper-2: #f5f1e9;
+  --color-paper-3: #ede7db;
+  --color-ink: #2b2825;
+  --color-ink-2: #55504a;
+  --color-ink-3: #8a837a;
+  --color-rule: #e2dbcd;
+
+  /* Aksen utama — sage */
+  --color-sage-50: #f1f5f1;
+  --color-sage-100: #dfe9e0;
+  --color-sage-200: #c3d6c6;
+  --color-sage-300: #9dbca2;
+  --color-sage-400: #7aa081;
+  --color-sage-500: #5f7d66;
+  --color-sage-600: #4c6552;
+  --color-sage-700: #3c5041;
+
+  /* Aksen sekunder — clay, untuk menyorot tata bahasa */
+  --color-clay-50: #fbf2ea;
+  --color-clay-100: #f6e4d4;
+  --color-clay-200: #ebc8a9;
+  --color-clay-300: #d8a176;
+  --color-clay-500: #a9683a;
+  --color-clay-600: #8c5530;
+
+  /* Biru redup — untuk info/terjemahan */
+  --color-azure-50: #eef3f7;
+  --color-azure-100: #dbe6ef;
+  --color-azure-500: #4a6c88;
+  --color-azure-600: #3b586f;
+
+  /* Status */
+  --color-good-50: #edf6ef;
+  --color-good-500: #3f7d52;
+  --color-bad-50: #fbeeea;
+  --color-bad-500: #a8452f;
+
+  --font-sans:
+    'Source Serif 4', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-ui:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-ko:
+    'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Nanum Gothic',
+    ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 0.875rem;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-ui);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Fokus keyboard selalu terlihat. */
+  :focus-visible {
+    outline: 2px solid var(--color-sage-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  button {
+    font-family: inherit;
+  }
+
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+    font-size: 1rem;
+  }
+
+  ::selection {
+    background: var(--color-sage-100);
+  }
+}
+
+@layer components {
+  /* Teks Korea — selalu jadi fokus visual. */
+  .ko {
+    font-family: var(--font-ko);
+    font-feature-settings: normal;
+    word-break: keep-all;
+    line-height: 1.5;
+  }
+
+  /* Sorotan partikel di dalam kalimat. */
+  .pt {
+    background: var(--color-sage-100);
+    color: var(--color-sage-700);
+    border-radius: 5px;
+    padding: 0.05em 0.18em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* Sorotan akhiran / konjugasi. */
+  .pe {
+    background: var(--color-clay-100);
+    color: var(--color-clay-600);
+    border-radius: 5px;
+    padding: 0.05em 0.18em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-card);
+  }
+
+  .prose-note p + p {
+    margin-top: 0.6em;
+  }
+}
+
+@layer utilities {
+  .animate-rise {
+    animation: rise 0.22s ease-out;
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .animate-fade {
+    animation: fade 0.2s ease-out;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-rise,
+    .animate-fade {
+      animation: none;
+    }
+    * {
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Sembunyikan scrollbar pada baris tab yang bisa digeser. */
+  .no-bar {
+    scrollbar-width: none;
+  }
+  .no-bar::-webkit-scrollbar {
+    display: none;
+  }
+}

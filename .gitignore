@@ -1,0 +1,45 @@
+# Dependensi
+node_modules
+
+# Hasil build
+dist
+dist-ssr
+build
+.vite
+
+# Cache TypeScript
+*.tsbuildinfo
+
+# Variabel lingkungan & rahasia — jangan pernah di-commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Vercel
+.vercel
+
+# Log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea
+*.swp
+.vscode/*
+!.vscode/extensions.json
+
+# Pengaturan lokal Claude Code (khusus perangkat ini)
+.claude/settings.local.json
+
+# Berkas lokal lain-lain
+*.local
