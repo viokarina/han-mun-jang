@@ -291,7 +291,7 @@ export interface Module {
   title: string
   description: string
   /** Warna aksen lembut untuk kartu modul. */
-  accent: 'sage' | 'blue' | 'clay' | 'plum' | 'gold' | 'teal'
+  accent: 'sage' | 'blue' | 'clay' | 'plum' | 'gold' | 'teal' | 'rose'
 }
 
 /* ------------------------------------------------------------------ */

@@ -20,7 +20,15 @@ import { m4l1 } from './lessons/m4l1'
 import { m4l2 } from './lessons/m4l2'
 import { m5l1 } from './lessons/m5l1'
 import { m5l2 } from './lessons/m5l2'
+import { m5l3 } from './lessons/m5l3'
+import { m5l4 } from './lessons/m5l4'
+import { m5l5 } from './lessons/m5l5'
+import { m5l6 } from './lessons/m5l6'
 import { m6l1 } from './lessons/m6l1'
+import { m7l1 } from './lessons/m7l1'
+import { m7l2 } from './lessons/m7l2'
+import { m7l3 } from './lessons/m7l3'
+import { m7l4 } from './lessons/m7l4'
 
 /**
  * Urutan larik ini = urutan belajar.
@@ -50,7 +58,15 @@ export const lessons: Lesson[] = [
   m4l2,
   m5l1,
   m5l2,
+  m5l3,
+  m5l4,
+  m5l5,
+  m5l6,
   m6l1,
+  m7l1,
+  m7l2,
+  m7l3,
+  m7l4,
 ]
 
 export { modules }

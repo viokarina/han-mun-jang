@@ -38,7 +38,7 @@ export const modules: Module[] = [
     number: 5,
     title: 'Percakapan Sehari-hari',
     description:
-      'Situasi nyata: memperkenalkan diri, berbicara di kantor, dan memesan makanan — dengan perbedaan antara bahasa santai dan 해요체.',
+      'Situasi nyata yang paling sering kamu temui: memperkenalkan diri, memesan makanan, belanja di minimarket, bicara soal olahraga, dan menunjukkan arah kepada orang asing.',
     accent: 'gold',
   },
   {
@@ -48,6 +48,14 @@ export const modules: Module[] = [
     description:
       'Bacaan pendek, pesan chat, dan diari — lengkap dengan analisis partikel, pertanyaan pemahaman, dan latihan menulis sendiri.',
     accent: 'teal',
+  },
+  {
+    id: 'm7',
+    number: 7,
+    title: 'Obrolan Santai & Budaya',
+    description:
+      'Bahasa Korea yang dipakai saat kamu sudah benar-benar bergaul: 반말 di rumah, etiket meja soju, aturan di 찜질방, dan obrolan K-pop.',
+    accent: 'rose',
   },
 ]
 

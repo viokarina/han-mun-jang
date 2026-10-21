@@ -121,6 +121,8 @@ export function moduleAccent(accent: string): {
       return { chip: 'bg-[#f3eef4] text-[#6b4f72]', bar: 'bg-[#9b7aa3]', ring: 'ring-[#e7dceb]' }
     case 'gold':
       return { chip: 'bg-[#f7f1e2] text-[#86692c]', bar: 'bg-[#c3a24e]', ring: 'ring-[#eee3c9]' }
+    case 'rose':
+      return { chip: 'bg-[#f7eef0] text-[#8a4f5c]', bar: 'bg-[#b5808c]', ring: 'ring-[#ecd9de]' }
     case 'teal':
       return { chip: 'bg-[#e9f2f1] text-[#376560]', bar: 'bg-[#5c8f88]', ring: 'ring-[#d3e6e3]' }
     default:

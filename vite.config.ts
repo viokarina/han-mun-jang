@@ -8,5 +8,5 @@ export default defineConfig({
   // Seluruh kurikulum dimuat sebagai satu berkas supaya aplikasi tetap bekerja
   // tanpa jaringan setelah dibuka. Ukurannya memang di atas ambang peringatan
   // bawaan Vite, dan itu disengaja.
-  build: { chunkSizeWarningLimit: 900 },
+  build: { chunkSizeWarningLimit: 1200 },
 })
