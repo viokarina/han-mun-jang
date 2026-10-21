@@ -24,6 +24,10 @@ import { m5l3 } from './lessons/m5l3'
 import { m5l4 } from './lessons/m5l4'
 import { m5l5 } from './lessons/m5l5'
 import { m5l6 } from './lessons/m5l6'
+import { m5l7 } from './lessons/m5l7'
+import { m5l8 } from './lessons/m5l8'
+import { m5l9 } from './lessons/m5l9'
+import { m5l10 } from './lessons/m5l10'
 import { m6l1 } from './lessons/m6l1'
 import { m7l1 } from './lessons/m7l1'
 import { m7l2 } from './lessons/m7l2'
@@ -62,6 +66,10 @@ export const lessons: Lesson[] = [
   m5l4,
   m5l5,
   m5l6,
+  m5l7,
+  m5l8,
+  m5l9,
+  m5l10,
   m6l1,
   m7l1,
   m7l2,

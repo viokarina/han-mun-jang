@@ -36,7 +36,7 @@ Perintah lain:
 
 ## Isi kurikulum
 
-**7 modul · 28 pelajaran · 289 latihan · 40 soal Lab Partikel · 16 tugas menulis**
+**7 modul · 32 pelajaran · 333 latihan · 40 soal Lab Partikel · 16 tugas menulis**
 
 | Modul | Judul                            | Isi                                                                      |
 | ----- | -------------------------------- | ------------------------------------------------------------------------ |
@@ -44,7 +44,7 @@ Perintah lain:
 | 2     | Partikel dalam Konteks           | 은/는 · 이/가 · 을/를 · 에 · 에서 · 도 · 만 · 하고/와·과/(이)랑 · 의 · 에게/한테 · 께/께서 · (으)로 · 부터/까지 · 보다 |
 | 3     | Kata Kerja & Kata Sifat          | Batang kata & 해요체 · lampau 았/었어요 · rencana -(으)ㄹ 거예요 · 안/못/-지 않다 · -고 싶다 · -(으)ㄹ 수 있다 |
 | 4     | Memperluas Kalimat               | Urutan keterangan · -고 · alasan -아/어서 vs -(으)니까                     |
-| 5     | Percakapan Sehari-hari           | Perkenalan & tingkat kesopanan · memesan · restoran · minimarket · olahraga · menunjukkan arah |
+| 5     | Percakapan Sehari-hari           | Perkenalan · memesan · restoran · minimarket · olahraga · arah · salon · taksi · apotek · telepon kantor |
 | 6     | Membaca & Menulis                | Kata penyambung antarkalimat · menulis diari                              |
 | 7     | Obrolan Santai & Budaya          | 반말 di rumah · soju & 고깃집 · 찜질방 (boleh/tidak boleh/harus) · K-pop |
 

@@ -38,7 +38,7 @@ export const modules: Module[] = [
     number: 5,
     title: 'Percakapan Sehari-hari',
     description:
-      'Situasi nyata yang paling sering kamu temui: memperkenalkan diri, memesan makanan, belanja di minimarket, bicara soal olahraga, dan menunjukkan arah kepada orang asing.',
+      'Sepuluh situasi nyata yang paling sering kamu temui: perkenalan, restoran, minimarket, olahraga, menunjukkan arah, salon, taksi, apotek, dan telepon kantor.',
     accent: 'gold',
   },
   {
